@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>saveActiveFile</string>
+	<string>nop</string>
 	<key>command</key>
 	<string>#!/usr/bin/env ruby -wKU
 #: Title		: TextMate PDF.tmbundle script for 'Clear PDF'
 #: Date		: 2010-01-16
 #: Author		: "Eugene Fokin" &lt;ginfonic@gmail.com&gt;
-#: Version	: 1.0</string>
+#: Version	: 1.0
+text = STDIN.read
+text.gsub!(/-+[\n\r]+/m, '')
+text.gsub!(/[\n\r]+/m, ' ')
+puts text</string>
 	<key>input</key>
-	<string>document</string>
+	<string>selection</string>
 	<key>name</key>
 	<string>Clear PDF</string>
 	<key>output</key>
-	<string>replaceDocument</string>
+	<string>replaceSelectedText</string>
 	<key>uuid</key>
 	<string>EDC80998-89D6-4241-B1C2-0A600D214CC6</string>
 </dict>
