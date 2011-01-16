@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU
+#: Title		: TextMate PDF.tmbundle script for 'Clear PDF'
+#: Date		: 2010-01-16
+#: Author		: "Eugene Fokin" &lt;ginfonic@gmail.com&gt;
+#: Version	: 1.0</string>
+	<key>input</key>
+	<string>document</string>
+	<key>name</key>
+	<string>Clear PDF</string>
+	<key>output</key>
+	<string>replaceDocument</string>
+	<key>uuid</key>
+	<string>EDC80998-89D6-4241-B1C2-0A600D214CC6</string>
+</dict>
+</plist>
