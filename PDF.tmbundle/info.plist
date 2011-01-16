@@ -4,6 +4,11 @@
 <dict>
 	<key>name</key>
 	<string>PDF</string>
+	<key>ordering</key>
+	<array>
+		<string>EDC80998-89D6-4241-B1C2-0A600D214CC6</string>
+		<string>BD293197-A4D3-45B8-843E-B94A91C41CC4</string>
+	</array>
 	<key>uuid</key>
 	<string>AF140E4E-0361-4335-99E2-960B9DF8A141</string>
 </dict>
